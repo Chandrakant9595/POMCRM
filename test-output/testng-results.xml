@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="79296" started-at="2020-07-18T18:04:35 IST" finished-at="2020-07-18T18:05:54 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="79296" started-at="2020-07-18T18:04:35 IST" finished-at="2020-07-18T18:05:54 IST">
+      <class name="com.qa.pomcrm.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.pomcrm.testcases.LoginPageTest@ba372c]" name="setUp" is-config="true" duration-ms="32883" started-at="2020-07-18T18:04:35 IST" finished-at="2020-07-18T18:05:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageURLTest()[pri:1, instance:com.qa.pomcrm.testcases.LoginPageTest@ba372c]" name="verifyLoginPageURLTest" duration-ms="164" started-at="2020-07-18T18:05:09 IST" description="Test for validate the Login page URL" finished-at="2020-07-18T18:05:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageURLTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.pomcrm.testcases.LoginPageTest@ba372c]" name="tearDown" is-config="true" duration-ms="769" started-at="2020-07-18T18:05:09 IST" finished-at="2020-07-18T18:05:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.pomcrm.testcases.LoginPageTest@ba372c]" name="setUp" is-config="true" duration-ms="16031" started-at="2020-07-18T18:05:10 IST" finished-at="2020-07-18T18:05:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="vaerifyLoginPageTitle()[pri:2, instance:com.qa.pomcrm.testcases.LoginPageTest@ba372c]" name="vaerifyLoginPageTitle" duration-ms="48" started-at="2020-07-18T18:05:26 IST" description="Test for validate the Login page Title" finished-at="2020-07-18T18:05:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vaerifyLoginPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.pomcrm.testcases.LoginPageTest@ba372c]" name="tearDown" is-config="true" duration-ms="801" started-at="2020-07-18T18:05:26 IST" finished-at="2020-07-18T18:05:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.pomcrm.testcases.LoginPageTest@ba372c]" name="setUp" is-config="true" duration-ms="12199" started-at="2020-07-18T18:05:26 IST" finished-at="2020-07-18T18:05:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginTest()[pri:3, instance:com.qa.pomcrm.testcases.LoginPageTest@ba372c]" name="verifyLoginTest" duration-ms="14706" started-at="2020-07-18T18:05:39 IST" description="Test for validate the Login functionality" finished-at="2020-07-18T18:05:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.pomcrm.testcases.LoginPageTest@ba372c]" name="tearDown" is-config="true" duration-ms="891" started-at="2020-07-18T18:05:53 IST" finished-at="2020-07-18T18:05:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.pomcrm.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

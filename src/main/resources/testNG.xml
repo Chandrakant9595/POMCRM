@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="POMCRM" verbose="1">
+
+	<listeners>
+		<listener class-name="com.qa.pomcrm.extentReportListener.ExtentReportListenar"></listener>
+	</listeners>
+
+	<test name="POMCRM">
+		<classes>
+			<!--  <class name="com.nc.qa.testCases.LoginPageTest" />-->
+		</classes>
+	</test>
+</suite>
