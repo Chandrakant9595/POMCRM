@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.pomcrm.testcases.LoginPageTest">
+      <class name="com.qa.pomcrm.testcases.CreateCompanyPageTest">
         <methods>
-          <include name="vaerifyLoginPageTitle"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addNewCompanyTest"/>
         </methods>
-      </class> <!-- com.qa.pomcrm.testcases.LoginPageTest -->
+      </class> <!-- com.qa.pomcrm.testcases.CreateCompanyPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

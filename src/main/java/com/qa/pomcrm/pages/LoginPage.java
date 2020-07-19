@@ -26,17 +26,17 @@ public class LoginPage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	@Step("Test step for validate Login Page title")
+	@Step("Allure - Test step for validate Login Page title")
 	public String validateLoginPageTitle() {
 		return driver.getTitle();
 	}
 	
-	@Step("Test step for validate Login Page URL")
+	@Step("Allure - Test step for validate Login Page URL")
 	public String validateLoginPageURL() {
 		return driver.getCurrentUrl();
 	}
 
-	@Step("Test step for validate Login functionality")
+	@Step("Allure - Test step for validate Login functionality")
 	public HomePage validateLogin(String un, String pass) throws IOException {
 		userName.clear();
 		userName.sendKeys(un);
